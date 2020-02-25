@@ -54,6 +54,7 @@ const addPokemon = (trainerId) => {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
+    
     renderTrainers()
 
     document.addEventListener('click', event => {
